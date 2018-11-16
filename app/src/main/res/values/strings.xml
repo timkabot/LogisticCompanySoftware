@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FinalLogisticCompany</string>
+    <string name="incorrect_login_toast">Authorization failed</string>
+    <string name="root">root</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="orders">Orders</string>
+    <string name="log_out">Log out</string>
+    <string name="order">Order</string>
+    <string name="destination">destination</string>
+    <string name="source">source</string>
+    <string name="lable_name">Farkopf Development</string>
+    <string name="to_source">To source</string>
+    <string name="to_destination">To Destination</string>
+    <string name="name">Name</string>
+    <string name="default_name">Vasiliy Petrovich G</string>
+    <string name="address">Address</string>
+    <string name="default_street">Pushkin str, Kolotushkin b</string>
+    <string name="phone">Phone</string>
+    <string name="default_phone">8–800–555-35-35</string>
+    <string name="service_phone">Service Phone</string>
+    <string name="operator_phone">8–917–655-23-27</string>
+    <string name="expectation_time">Expectation time</string>
+    <string name="default_tine">7:30 a.m.</string>
+    <string name="verify_delivery">Verify delivery</string>
+</resources>

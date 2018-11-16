@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheet"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/mapbox_blue"
+    android:orientation="vertical"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="80dp"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior">
+
+
+    <!--android:shadowColor="@color/pp_black"-->
+    <!--android:shadowDx="3"-->
+    <!--android:shadowDy="3"-->
+    <!--android:shadowRadius="4"-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/startToSourceButton"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="50"
+            android:background="@color/mapbox_darkblue"
+            android:text="@string/to_source" />
+
+        <Button
+            android:id="@+id/startToDestinationButton"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_weight="50"
+            android:background="@color/mapbox_darkblue"
+            android:text="@string/to_destination" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/name"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/recipientName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/default_name"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/address"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/destinationAddress"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/default_street"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/phone"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/recipientPhone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:padding="8dp"
+            android:textColorLink="#FFFFFF"
+            android:text="@string/default_phone"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/service_phone"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:autoLink="phone"
+            android:linksClickable="true"
+            android:id="@+id/servicePhone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:padding="8dp"
+            android:textColorLink="#FFFFFF"
+            android:text="@string/operator_phone"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/expectation_time"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/deliveryExpectationTime"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/default_tine"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/askSignatureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/mapbox_navigation_view_color_accent_text"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/verify_delivery"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

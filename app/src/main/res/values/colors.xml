@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mapbox_darkblue">#1987a6</color>
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#ffffff</color>
+
+    <color name="primary_red">#d3140c</color>
+    <color name="primary_red_dark">#6e0000</color>
+    <color name="primary_red_light_dark">#c80d1c</color>
+
+    <color name="accent_yellow">#ffd200</color>
+    <color name="dark_yellow">#fbc02d</color>
+    <color name="occupancy_yellow">#f9ca0c</color>
+    <color name="occupancy_yellow_dark">#6ef9ca0c</color>
+
+
+    <color name="t_light_primary">#ffffffff</color>
+    <color name="t_light_secondary">#b3ffffff</color>
+    <color name="t_light_hint">#4dffffff</color>
+    <color name="t_light_hint_without_alpha">#b3b3b3</color>
+    <color name="t_alert_hint">#80FFFFFF</color>
+
+    <color name="t_dark_primary">#b8000000</color>
+    <color name="t_dark_grey">#ff424242</color>
+    <color name="t_dark_secondary">#8a000000</color>
+    <color name="t_dark_hint">#43000000</color>
+    <color name="t_dark_divider">#1a000000</color>
+
+
+    <color name="bkg_gray">#242424</color>
+    <color name="bkg_gray_light">#3f3f3f</color>
+    <color name="bkg_gray_purchase_info">#3c3c3c</color>
+    <color name="bkg_gray_receipt">#555555</color>
+    <color name="bkg_gray_super_light">#464646</color>
+
+    <color name="alfa_divider">#4cffffff</color>
+
+    <color name="bkg_overlay">#59000000</color>
+    <color name="pp_black">#000000</color>
+    <color name="white_opacity_30_percent">#76ffffff</color>
+    <color name="bkg_switch">#50000000</color>
+
+    <color name="overlay_border">#d71900</color>
+    <color name="overlay_fill">#cc0000</color>
+
+    <color name="divider_grey">#3e3e3e</color>
+    <color name="divider_grey_light">#4e4e4e</color>
+
+
+    <color name="separator">#FF3A3A3A</color>
+
+    <color name="mb_blue">#1E8CAB</color>
+
+    <color name="primary_red_enabled">#ffd3140c</color>
+    <color name="primary_red_disabled">#33d3140c</color>
+</resources>
